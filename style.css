@@ -34,6 +34,74 @@ a {
   justify-content: flex-start;
   gap: 1rem;
   list-style-type: none;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.block-popular__right-nav {
+  flex: right;
+  width: 70px;
+  height: 25px;
+  margin-top: 30px;
+  margin-left: 850px;
+}
+
+.Popular-card-section {
+  width: 1300px;
+  height: 950px;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.Popular-card {
+  width: 310px;
+  height: 450px;
+  margin-top: 30px;
+  /* padding-right: 4px; */
+  /* display: flex; */
+  float: left;
+}
+
+.Popular-card-1 {
+  width: 310px;
+  height: 450px;
+  margin-top: 30px;
+  margin-left: 20px;
+  /* padding-right: 4px; */
+  /* display: flex; */
+  float: left;
+}
+
+.Popular-card-date {
+  width: 59px;
+  height: 15px;
+  margin-top: 15px;
+  font: lora;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.36px;
+  color: #6C757D;
+}
+
+.Popular-card-header {
+  width: 273px;
+  height: 50px;
+  margin-top: 15px;
+  font: lora;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #495057;
+}
+
+.Popular-card-description {
+  width: 310px;
+  height: 60px;
+  margin-top: 15px;
+  font: lora;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #6C757D;
 }
 
 .block-hero {
@@ -58,7 +126,7 @@ a {
   font-size: 10px;
   color: #FFFFFF;
   line-height: 11.72px;
-  text-align: right;
+  text-align: center;
  }
 
  h1 {
@@ -109,3 +177,16 @@ a {
   margin-left: 70px;
   margin-top: 62px;
   }
+
+  h2 {
+    width: 249px;
+    height: 46px;
+    margin-top: 150px;
+    margin-left: 70px;
+    font: lora;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.08px;
+    color: #495057;
+  }
+
