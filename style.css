@@ -35,3 +35,77 @@ a {
   gap: 1rem;
   list-style-type: none;
 }
+
+.block-hero {
+  background-image: url("./assets/images/hero-bg.jpg");
+  background-size: cover;
+  height: 600px;
+  border: 1px 1px 1x 1px;
+  border: 1px solid #343A40
+ }
+
+ .block-hero-btn {
+  width: 77px;
+  height: 22px;
+  margin-top: 278px;
+  margin-left: 70px;
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
+  gap: 10px;
+  background-color: #FFFFFF26;
+  font: roboto;
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+  line-height: 11.72px;
+  text-align: right;
+ }
+
+ h1 {
+  width: 530px;
+  height: 92px;
+  margin-top: 15px;
+  margin-left: 70px;
+  font: lora;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46.08px;
+  color: #FFFFFF;
+ }
+
+ .block-hero-date {
+  width: 59px;
+  height: 15px;
+  margin-top: 15px;
+  margin-left: 70px;
+  font: lora;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.36px;
+  color: #E5E5E5;
+ }
+
+ .block-hero-line {
+  width: 30px;
+  margin-left: 140px;
+  color: #E5E5E5;
+  border: 1px solid #E5E5E5
+ }
+
+ .block-hero-content {
+  width: 420px;
+  height: 40px;
+  margin-left: 180px;
+  font: lora;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #E5E5E5;
+ }
+
+ .block-hero-circle {
+  width: 44px;
+  height: 8px;
+  margin-left: 70px;
+  margin-top: 62px;
+  }
