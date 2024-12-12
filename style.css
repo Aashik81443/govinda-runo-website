@@ -111,7 +111,6 @@
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
-  text-decoration: none;
   
 }
 
@@ -120,13 +119,11 @@
   gap: 1rem;
   margin-top: 0px;
   justify-content: flex-start;
-  text-decoration: none;
 }
 
 .right-nav {
   margin-left: 850px;
   margin-top: 30px;
-  text-decoration: none;
 }
 
 .Popular-card-section {
@@ -174,4 +171,6 @@
   color: #6C757D;
 }
   
-
+a {
+  text-decoration: none;
+}
