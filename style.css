@@ -113,7 +113,7 @@ a {
  }
 
  .block-hero-btn {
-  width: 77px;
+  width: 85px;
   height: 22px;
   margin-top: 278px;
   margin-left: 70px;
@@ -144,7 +144,7 @@ a {
  .block-hero-date {
   width: 59px;
   height: 15px;
-  margin-top: 15px;
+  margin-top: 2px;
   margin-left: 70px;
   font: lora;
   font-weight: 400;
@@ -155,21 +155,31 @@ a {
 
  .block-hero-line {
   width: 30px;
-  margin-left: 140px;
+  max-height: 2px;
+  margin-left: 11px;
+  margin-top: 3px;
   color: #E5E5E5;
   border: 1px solid #E5E5E5
  }
 
- .block-hero-content {
+ .block-hero-description {
   width: 420px;
   height: 40px;
-  margin-left: 180px;
+  margin-left: 10px;
+  margin-top: 22px;
   font: lora;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
   color: #E5E5E5;
  }
+
+ .block-hero-content-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
 
  .block-hero-circle {
   width: 44px;
@@ -189,4 +199,6 @@ a {
     line-height: 46.08px;
     color: #495057;
   }
+
+  
 
