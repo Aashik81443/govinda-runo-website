@@ -27,6 +27,7 @@
   color: #FFFFFF;
   line-height: 11.72px;
   text-align: center;
+  border: none;
  }
 
  h1 {
@@ -119,6 +120,8 @@
   gap: 1rem;
   margin-top: 0px;
   justify-content: flex-start;
+  list-style: none;
+  color: #495057;
 }
 
 .right-nav {
@@ -173,4 +176,71 @@
   
 a {
   text-decoration: none;
+}
+
+.fashion-container {
+  background-image: url("./assets/images/fashion-bg.jpg");
+  background-size: cover;  
+  height: 600px;
+  margin-top: 149px;
+}
+
+ .fashion-btn {
+  width: 62px;
+  height: 22px;
+  margin-top: 178px;
+  margin-left: 689px;
+  padding: 5px 10px 5px 10px;
+  gap: 10px;
+  background-color: #FFFFFF26;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 11.72px;
+  text-align: center;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border: none;
+
+}
+
+.fasion-header {
+  width: 530px;
+  height: 92px;
+  margin-top: 24px;
+  margin-left: 455px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46.08px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.fashion-content {
+  width: 420px;
+  height: 40px;
+  margin-top: 13px;
+  margin-left: 510px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #E5E5E5;
+}
+
+.fashion-line {
+  width: 30px;
+  margin-top: 24px;
+  margin-left: 705px;
+  border: 1px solid #E5E5E5
+}
+
+.fashion-date {
+  width: 59px;
+  height: 15px;
+  margin-top: 15px;
+  margin-left: 692px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.36px;
+  color: #E5E5E5;
 }
