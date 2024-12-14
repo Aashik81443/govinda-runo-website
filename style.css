@@ -244,3 +244,75 @@ a {
   line-height: 15.36px;
   color: #E5E5E5;
 }
+
+.Editor-Pick-container {
+  width: 1300px;
+  height: 466px;
+  margin-top: 149px;
+  margin-left: 70px;
+}
+
+.editor-pick-header {
+  width: 217px;
+  height: 46px;
+  font-size: 36px;
+  line-height: 46.08px;
+  color: #495057;
+}
+
+.editor-pick-card-section {
+  margin-top: 70px;
+  display: flex;
+  gap: 1em;
+  
+}
+.editor-pick-card-1 {
+  background-image: url("./assets/images/editor-blog-bg-1.jpg");
+  width: 420px;
+  height: 350px;
+}
+
+.editor-pick-card-2 {
+  background-image: url("./assets/images/editor-blog-bg-2.jpg");
+  width: 420px;
+  height: 350px;
+}
+
+.editor-pick-card-3 {
+  background-image: url("./assets/images/editor-blog-bg-3.jpg");
+  width: 420px;
+  height: 350px;
+}
+
+.editor-pick-date {
+  width: 59px;
+  height: 15px;
+  padding-top: 153px;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.36px;
+  color: #E5E5E5;
+}
+
+.editor-pick-card-header {
+  width: 270px;
+  height: 50px;
+  padding-top: 15px;
+  padding-left: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.editor-pick-card-description {
+  width: 340px;
+  height: 60px;
+  padding-top: 15px;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #E5E5E5;
+}
