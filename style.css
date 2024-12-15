@@ -249,12 +249,13 @@ a {
   width: 1300px;
   height: 466px;
   margin-top: 149px;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
 .editor-pick-header {
   width: 217px;
   height: 46px;
+  margin-left: 70px;
   font-size: 36px;
   line-height: 46.08px;
   color: #495057;
@@ -262,6 +263,7 @@ a {
 
 .editor-pick-card-section {
   margin-top: 70px;
+  margin-left: 70px;
   display: flex;
   gap: 1em;
   
@@ -314,5 +316,197 @@ a {
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
+  color: #E5E5E5;
+}
+
+.site-footer {
+  margin-top: 149px;
+}
+
+.footer-top-section {
+  width: auto;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #212529;
+}
+
+.footer-contact-pulisher {
+  width: 188px;
+  height: 89px;
+  margin-top: 106px;
+  margin-left: 70px;
+  list-style: none;
+
+}
+
+.footer-Explorate {
+  width: 115px;
+  height: 188px;
+  margin-top: 106px;
+  margin-left: 142px;
+  list-style: none;
+}
+
+.footer-headquarter {
+  width: 114px;
+  height: 100px;
+  margin-top: 106px;
+  margin-left: 229px;
+  list-style: none;
+}
+
+
+.footer-connection {
+  width: 172px;
+  height: 60px;
+  margin-top: 106px;
+  margin-left: 216px;
+  list-style: none;
+}
+
+.footer-contact-pulisher-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.Publisher-ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+#email {
+  padding-top: 16px;
+  font: lora;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.36px;
+  color: #E5E5E5;
+}
+
+#contact-number {
+  padding-top: 18px;
+  font: lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.36px;
+}
+
+.footer-Explorate-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.footer-Explorate-ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+#about {
+  padding-top: 16px;
+  font: lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.36px;
+}
+
+#Partners {
+  padding-top: 18px;
+  font: lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.36px;
+}
+
+#job-opportunities {
+  padding-top: 18px;
+  font: lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.36px;
+}
+
+#Advertise {
+  padding-top: 18px;
+  font: lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.36px;
+}
+
+#Membership {
+  padding-top: 18px;
+  font: lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.36px;
+}
+
+.footer-headquaters-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+#footer-headquarter-place {
+  padding-top: 18px;
+  font: lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.36px;
+}
+
+.footer-connection-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.footer-social-media-logos {
+  width: 172px;
+  height: 20px;
+  padding-top: 15px;
+}
+
+/* .footer-social-media-logos {
+  gap: 18px;
+} */
+
+.footer-lower-section {
+  width: cover;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #343A40;
+}
+
+.copyright {
+  width: 198px;
+  height: 18px;
+  margin-top: 31px;
+  margin-left: 70px;
+  font: lora;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.92px;
+  color: #E5E5E5;
+}
+
+.Subscribe {
+  width: 98px;
+  height: 18px;
+  margin-top: 31px;
+  margin-left: 1004px;
+  font: lora;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.92px;
+  text-align: right;
   color: #E5E5E5;
 }
