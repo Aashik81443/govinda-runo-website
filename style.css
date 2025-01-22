@@ -87,10 +87,11 @@ h1 {
   margin-top: 62px;
   }
 
-.block-popular-container {
+.block-popular {
   margin-top: 150px;
-  margin-left: 70px;
+  margin-inline: 70px;
 }
+
 
 .popular-header {
   font-weight: 700;
@@ -102,6 +103,7 @@ h1 {
 .block-popular__nav {
   display: flex;
   justify-content: space-between;
+  text-align: center;
   padding-top: 30px;
 }
 
@@ -115,25 +117,27 @@ h1 {
 }
 
 .right-nav {
-  margin-left: 850px;
-  margin-top: 30px;
+  /* margin-left: 700px;
+  margin-top: 30px; */
+  /* margin-right: 170px; */
 }
 
 a {
   text-decoration: none;
 }
 
+
 .Popular-card-section {
   margin-top: 30px;
   display: flex;
-  gap: 1rem;
+  row-gap: 20px;
+  column-gap: 25px;  
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 .Popular-card-date {
-  width: 59px;
-  height: 15px;
+  max-width: 59px;
   margin-top: 15px;
   font-weight: 400;
   font-size: 12px;
@@ -142,8 +146,7 @@ a {
 }
 
 .Popular-card-header {
-  width: 273px;
-  height: 50px;
+  max-width: 273px;
   margin-top: 15px;
   font-weight: 700;
   font-size: 18px;
@@ -152,8 +155,7 @@ a {
 }
 
 .Popular-card-description {
-  width: 310px;
-  height: 60px;
+  max-width: 310px;
   margin-top: 15px;
   font-weight: 400;
   font-size: 12px;
@@ -166,75 +168,63 @@ a {
   background-size: cover;  
   height: 600px;
   margin-top: 149px;
-}
-
-.fashion-container {
   display: flex;
   justify-content: center;
 }
 
 .fashion-container-wrap {
   max-width: 530px;
-  max-height: 245px;
-  /* padding-top: 180px;
-  margin-left: 32%;
-  text-align: center; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .fashion-btn {
-  width: 62px;
-  height: 22px;
-  /* margin-top: 178px;
-  margin-left: 689px; */
+  max-width: 62px;
   padding: 5px 10px 5px 10px;
   gap: 10px;
+  margin-inline: auto;
   background-color: #FFFFFF26;
   font-size: 10px;
   font-weight: 700;
   line-height: 11.72px;
-  /* text-align: center; */
   border-radius: 8px;
   color: #FFFFFF;
   border: none;
 }
 
 .fasion-header {
-  width: 530px;
-  height: 92px;
+  max-width: 530px;
   padding-top: 24px;
-  /* margin-top: 24px;
-  margin-left: 455px; */
+  margin-inline: auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 46.08px;
-  /* text-align: center; */
   color: #FFFFFF;
 }
 
 .fashion-content {
-  width: 420px;
-  height: 40px;
-  /* margin-top: 37px;
-  margin-left: 62px; */
+  max-width: 420px;
+  margin-inline: auto;
+  margin-top: 13px;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
-  /* text-align: center; */
   color: #E5E5E5;
 }
 
 .fashion-line {
   width: 30px;
-  /* margin-top: 22px;
-  margin-left: 246px; */
+  margin-inline: auto;
+  margin-top: 24px;
   border: 1px solid #E5E5E5
 }
 
 .fashion-date {
-  width: 59px;
-  height: 15px;
-  /* margin-top: 18px;
-  margin-left: 236px; */
+  max-width: 59px;
+  margin-inline: auto;
+  margin-top: 15px;
   font-weight: 400;
   font-size: 12px;
   line-height: 15.36px;
@@ -242,20 +232,22 @@ a {
 }
 
 .editor-pick-header {
-  width: 217px;
-  height: 46px;
-  margin-left: 70px;
+  max-width: 217px;
   font-size: 36px;
   line-height: 46.08px;
   color: #495057;
 }
 
+.Editor-Pick-container {
+  margin-inline: 70px;
+  margin-top: 149px;
+}
+
 .editor-pick-card-section {
   margin-top: 70px;
-  margin-left: 70px;
   display: flex;
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 20px;
   
 }
 .editor-pick-card-1 {
@@ -272,7 +264,6 @@ a {
 
 .editor-pick-date {
   width: 59px;
-  height: 15px;
   padding-top: 153px;
   padding-left: 40px;
   font-weight: 400;
@@ -282,8 +273,7 @@ a {
 }
 
 .editor-pick-card-header {
-  width: 270px;
-  height: 50px;
+  max-width: 270px;
   padding-top: 15px;
   padding-left: 40px;
   font-weight: 700;
@@ -293,8 +283,7 @@ a {
 }
 
 .editor-pick-card-description {
-  width: 340px;
-  height: 60px;
+  max-width: 340px;
   padding-top: 15px;
   padding-left: 40px;
   font-weight: 400;
@@ -506,11 +495,12 @@ nav {
   display: flex;
   flex-wrap: wrap;
   position: absolute;
+  justify-content: space-between;
 }
 
 label.logo {
   width: 69px;
-  height: 22px;
+  /* height: 22px; */
   padding-top: 29px;
   padding-left: 70px;
   font: spartan;
@@ -524,7 +514,7 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   padding-top: 33px;
-  padding-left: 727px;
+  padding-right: 70px;
   gap: 18px;
   list-style: none;
 }
