@@ -50,6 +50,7 @@
   background-position: center;
   border: 1px solid #E5E5E5;
   background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
 
 .hero-btn {
@@ -115,7 +116,7 @@ h1 {
   }
 
 .block-popular {
-  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
 
@@ -150,7 +151,7 @@ a {
 .Popular-card-section {
   margin-top: 30px;
   margin-left: -15px;
-  /* margin-right: -15px; */
+  margin-right: -15px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -159,7 +160,8 @@ a {
 .Popular-card {
   width: 100%;
   padding-left: 15px;
-  /* padding-right: 15px; */
+  padding-right: 15px;
+  margin-bottom: 30px;
 }
 
 .Popular-card img {
@@ -222,9 +224,9 @@ a {
 .fashion-container {
   background-image: url("./assets/images/fashion-bg.jpg");
   background-size: cover;  
-  margin-top: 149px;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .fashion-container-wrap {
@@ -294,11 +296,11 @@ a {
 }
 
 .Editor-Pick-container {
-  margin-top: 149px;
+  margin-bottom: 50px;
 }
 
 .editor-pick-card-section {
-  margin-top: 70px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -388,7 +390,7 @@ a {
 }
 
 .site-footer {
-  margin-top: 149px;
+  /* margin-top: 149px; */
 }
 
 .footer-top-section {
