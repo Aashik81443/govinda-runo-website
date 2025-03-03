@@ -4,28 +4,85 @@
  padding: 0;
 }
 
-header {
+.header {
   background: transparent;
   color: rgb(13, 11, 11);
   padding: 15px;
   text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(60, 60, 60, 0.2);
 }
 
 nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: relative;
+}
+
+.hamBurger-close {
+  display: none;
+}
+
+nav.active .hamBurger-close {
+  display: inline-block;
+}
+
+nav.active .heder-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+nav.active .heder-menu-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  background-color: red;
+  height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+  transition: all 0.5s;
+}
+
+.logo {
+  font-size: 40px;
+  color: white;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
+}
+
+.heder-menu {
+
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburger span {
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 100%;
+  margin-bottom: 10px;
+
 }
 
 nav ul li {
   display: inline;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 nav ul li a {
@@ -69,8 +126,6 @@ nav ul li a {
     max-width: 556px;
   }
 }
-
-
 
 .hero-image {
   background-image: url("./assets/images/hero-bg.jpg");
@@ -484,6 +539,11 @@ margin-top: -30px;  }
   list-style: none;
 }
 
+@media (max-width: 430px) {
+  .footer-connection {
+margin-top: 15px;  }
+}
+
 .footer-contact-pulisher-header {
   font-size: 18px;
   font-weight: 700;
@@ -621,5 +681,16 @@ margin-top: -30px;  }
   font-size: 14px;
   line-height: 17.92px;
   color: #E5E5E5;
+}
+
+@media (max-width: 1024px) {
+  .heder-menu {
+display: none;  }
+}
+
+@media (min-width: 1024px) {
+.hamburger {
+  display: none
+}
 }
 
