@@ -57,6 +57,7 @@ nav.active .heder-menu {
 
 nav.active .header-social-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;  
   gap: 15px;
   font-size: 50px;
