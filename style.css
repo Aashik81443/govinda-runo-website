@@ -27,16 +27,21 @@ nav {
 }
 
 nav.active .hamBurger-close {
-  display: inline-block;
+  display: block;
+  display: flex;
+  float: right;
+  margin-bottom: 50px;
+  margin-right: 25px;
 }
 
 nav.active .heder-menu {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  background-color: red;
+  gap: 25px;
+  background-color: blue;
   height: 100%;
   width: 100%;
+  font-size: 25px;
 }
 
 nav.active .heder-menu-wrapper {
@@ -45,10 +50,10 @@ nav.active .heder-menu-wrapper {
   top: 0;
   bottom: 0;
   display: block;
-  background-color: red;
+  background-color: blue;
   height: 100vh;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 20px;
   transition: all 0.5s;
 }
 
@@ -59,10 +64,6 @@ nav.active .heder-menu-wrapper {
 
 nav ul {
   list-style: none;
-}
-
-.heder-menu {
-
 }
 
 .hamburger {
@@ -693,4 +694,3 @@ display: none;  }
   display: none
 }
 }
-
